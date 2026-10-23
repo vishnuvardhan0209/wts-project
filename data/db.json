@@ -1,0 +1,122 @@
+{
+  "surveys": [
+    {
+      "id": "1335c0b1-a0d1-408f-98ce-531adfd0108c",
+      "title": "teacher rating and feedback",
+      "description": "how cn faculty Nirmal sir is teaching",
+      "category": "Education",
+      "status": "active",
+      "anonymous": true,
+      "creatorId": "87de94d2-a419-4f62-b1e8-60615a693dea",
+      "createdAt": "2026-10-23T10:34:28.076Z",
+      "questions": [
+        {
+          "id": "dccbc7f7-35a4-41ac-b72b-54c5c3e91133",
+          "text": "overall teaching",
+          "type": "rating",
+          "required": true,
+          "options": []
+        },
+        {
+          "id": "92be3f06-c81e-47fe-a3fc-52179d08994b",
+          "text": "mentoring",
+          "type": "rating",
+          "required": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "survey-student",
+      "title": "Student Satisfaction Survey",
+      "description": "Help us improve learning, facilities, and student support.",
+      "category": "Education",
+      "status": "active",
+      "anonymous": true,
+      "createdAt": "2026-10-10T04:48:40.330Z",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "How satisfied are you with the quality of teaching?",
+          "type": "rating",
+          "required": true
+        },
+        {
+          "id": "q2",
+          "text": "Which area should we improve first?",
+          "type": "choice",
+          "options": [
+            "Teaching quality",
+            "Library",
+            "Campus facilities",
+            "Student support"
+          ],
+          "required": true
+        },
+        {
+          "id": "q3",
+          "text": "Any additional suggestions?",
+          "type": "text",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "survey-library",
+      "title": "Library Services Feedback",
+      "description": "Share your experience with library resources and services.",
+      "category": "Campus",
+      "status": "active",
+      "anonymous": true,
+      "createdAt": "2026-10-10T04:48:40.331Z",
+      "questions": [
+        {
+          "id": "q4",
+          "text": "Rate the availability of books and resources.",
+          "type": "rating",
+          "required": true
+        },
+        {
+          "id": "q5",
+          "text": "How often do you use the library?",
+          "type": "choice",
+          "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Rarely"
+          ],
+          "required": true
+        }
+      ]
+    }
+  ],
+  "responses": [
+    {
+      "id": "e52f552f-e3d3-42d6-8eaa-0015d6494c41",
+      "surveyId": "1335c0b1-a0d1-408f-98ce-531adfd0108c",
+      "answers": {
+        "dccbc7f7-35a4-41ac-b72b-54c5c3e91133": 5,
+        "92be3f06-c81e-47fe-a3fc-52179d08994b": 5
+      },
+      "submittedAt": "2026-10-23T10:34:34.734Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "87de94d2-a419-4f62-b1e8-60615a693dea",
+      "name": "Project Administrator",
+      "email": "admin@feedbackhub.local",
+      "passwordHash": "2c142ed00c4b09e3718ee54de5deb36c:e1208363ac61f7520be488f8195dcd3d0881bd336b4fcc042e14eb1e0e98de35deacc7f534ea9b5e6b1b2f0961c8dc984dea1a2e74eaff8bd9122eec1097e86e",
+      "role": "admin",
+      "createdAt": "2026-10-10T04:48:50.501Z"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "e793c2208ecf0f18b53de4ab6845a4d56a233e33ddb35adb01805a57ec9258ba",
+      "userId": "87de94d2-a419-4f62-b1e8-60615a693dea",
+      "expiresAt": 1793356032900
+    }
+  ]
+}
